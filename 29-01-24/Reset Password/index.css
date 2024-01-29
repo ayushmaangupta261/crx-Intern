@@ -1,0 +1,173 @@
+.frame-set-child {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-lightsteelblue);
+  box-sizing: border-box;
+  height: 507px;
+  display: none;
+}
+.bluassist,
+.bold-duotone-video-audio-s {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bold-duotone-video-audio-s {
+  width: 57px;
+  height: 57px;
+  overflow: hidden;
+}
+.bluassist {
+  height: 28px;
+  letter-spacing: 0.16em;
+  line-height: 65px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.reset-your-password {
+  margin: 0;
+  position: relative;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.media-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 20px;
+}
+.frame-set-item,
+.hey-jack {
+  position: relative;
+  z-index: 1;
+}
+.frame-set-item {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hey-jack {
+  line-height: 30px;
+  font-weight: 600;
+}
+.greeting-text {
+  width: 555px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.need-to-reset,
+.youll-be-on {
+  margin: 0;
+}
+.need-to-reset-container {
+  height: 60px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.reset-your-password1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.button,
+.button-frame {
+  flex-direction: row;
+  max-width: 100%;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-xl) var(--padding-lg)
+    var(--padding-2xl);
+  background-color: var(--color-royalblue);
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button:hover {
+  background-color: #4a91ff;
+}
+.button-frame {
+  width: 558px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px 0 0;
+}
+.button-frame,
+.frame-set,
+.thumbnail {
+  display: flex;
+  box-sizing: border-box;
+}
+.frame-set {
+  width: 665px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-lightsteelblue);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 26px 0 65px;
+  gap: 32px;
+  max-width: 100%;
+}
+.thumbnail {
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  background-color: var(--color-royalblue);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 215px var(--padding-xl) 290px var(--padding-2xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 675px) {
+  .frame-set {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .frame-set {
+    padding-top: var(--padding-xl);
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bluassist {
+    font-size: var(--font-size-base);
+    line-height: 52px;
+  }
+  .reset-your-password {
+    font-size: 19px;
+    line-height: 24px;
+  }
+}
